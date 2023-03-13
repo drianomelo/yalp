@@ -1,0 +1,51 @@
+.header {
+  padding: 2.5rem 0;
+  &__logo {
+    width: 100px;
+  }
+
+  &__navbar {
+    justify-content: space-between;
+  }
+
+  &__item {
+    list-style: none;
+
+    &:not(:last-child) {
+      margin-right: 2rem;
+    }
+
+    &:last-child {
+      &::before {
+        content: "|";
+        margin-right: 1.5rem;
+        color: var(--clr-white);
+      }
+
+      & a {
+        padding: 1rem 2rem;
+        border-radius: 1.5rem;
+        background-color: var(--clr-yellow);
+        color: var(--clr-black);
+
+        &:hover {
+          color: var(--clr-black);
+          background-color: var(--clr-yellow-hover);
+        }
+      }
+    }
+
+    & a {
+      color: var(--clr-white);
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 0.8rem;
+      font-weight: 700;
+      transition: all 0.3s;
+
+      &:hover {
+        color: var(--clr-white-hover);
+      }
+    }
+  }
+}

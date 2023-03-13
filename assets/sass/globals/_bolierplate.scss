@@ -5,6 +5,8 @@
 }
 
 body {
+  background-image: radial-gradient(circle at 95% 68%, #482b7b, #251344 58%);
+  background-color: #072347;
   font-size: 16px;
   font-weight: 400;
   font-family: var(--font-main);
@@ -13,4 +15,10 @@ body {
 .container {
   max-width: 1140px;
   margin: 0 auto;
+}
+
+.centralize {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

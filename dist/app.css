@@ -5,6 +5,8 @@
 }
 
 body {
+  background-image: radial-gradient(circle at 95% 68%, #482b7b, #251344 58%);
+  background-color: #072347;
   font-size: 16px;
   font-weight: 400;
   font-family: var(--font-main);
@@ -15,7 +17,59 @@ body {
   margin: 0 auto;
 }
 
+.centralize {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 :root {
   --font-main: "Inter", sans-serif;
   --clr-white: #fff;
+  --clr-yellow: #fce22a;
+  --clr-yellow-hover: #fce32aaf;
+  --clr-black: #1a0533;
+  --clr-white-hover: #ffffffb3;
+}
+
+.header {
+  padding: 2.5rem 0;
+}
+.header__logo {
+  width: 100px;
+}
+.header__navbar {
+  justify-content: space-between;
+}
+.header__item {
+  list-style: none;
+}
+.header__item:not(:last-child) {
+  margin-right: 2rem;
+}
+.header__item:last-child::before {
+  content: "|";
+  margin-right: 1.5rem;
+  color: var(--clr-white);
+}
+.header__item:last-child a {
+  padding: 1rem 2rem;
+  border-radius: 1.5rem;
+  background-color: var(--clr-yellow);
+  color: var(--clr-black);
+}
+.header__item:last-child a:hover {
+  color: var(--clr-black);
+  background-color: var(--clr-yellow-hover);
+}
+.header__item a {
+  color: var(--clr-white);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 700;
+  transition: all 0.3s;
+}
+.header__item a:hover {
+  color: var(--clr-white-hover);
 }/*# sourceMappingURL=app.css.map */
