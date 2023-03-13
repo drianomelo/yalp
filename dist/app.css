@@ -7,10 +7,15 @@
 body {
   font-size: 16px;
   font-weight: 400;
-  font-family: "Inter", sans-serif;
+  font-family: var(--font-main);
 }
 
 .container {
   max-width: 1140px;
   margin: 0 auto;
+}
+
+:root {
+  --font-main: "Inter", sans-serif;
+  --clr-white: #fff;
 }/*# sourceMappingURL=app.css.map */
