@@ -1,8 +1,18 @@
 .home {
-  div {
-    max-width: 570px;
-    padding: 2.5rem 0;
+  position: relative;
+  padding-bottom: 2.5rem;
+
+  &__header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 2.5rem 0 0;
   }
+
+  &__text {
+    max-width: 570px;
+  }
+
   &__title {
     color: var(--clr-white);
     font-size: 3.5rem;
@@ -13,5 +23,40 @@
   &__desc {
     color: var(--clr-white-hover);
     font-size: 1.1rem;
+  }
+
+  &__image {
+    margin-right: 1rem;
+    img {
+      width: 330px;
+    }
+  }
+
+  &__main {
+    display: flex;
+  }
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 170px;
+    background-color: transparent;
+    border: 2px solid var(--clr-purple-light);
+    border-radius: 0.5rem;
+    text-align: center;
+    color: var(--clr-white);
+    font-weight: 600;
+    padding: 1.1rem;
+
+    i {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    &:not(:last-child) {
+      margin-right: 2rem;
+    }
   }
 }
