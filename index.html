@@ -11,12 +11,27 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://kit.fontawesome.com/555bf53180.css"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <div class="container">
       <header class="header">
         <nav class="header__navbar centralize">
-          <img class="header__logo" src="assets/logo.svg" alt="Logo da YALP" />
+          <div class="centralize">
+            <img
+              class="header__logo"
+              src="assets/logo.svg"
+              alt="Logo da YALP"
+            />
+            <form class="centralize">
+              <input type="text" placeholder="Procure seu jogo favorito..." />
+              <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+          </div>
           <ul class="header__list centralize">
             <li class="header__item">
               <a href="#">Informações do Desenvolvedor</a>
@@ -31,5 +46,9 @@
         </nav>
       </header>
     </div>
+    <script
+      src="https://kit.fontawesome.com/555bf53180.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

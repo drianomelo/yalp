@@ -1,7 +1,40 @@
 .header {
   padding: 2.5rem 0;
+
   &__logo {
     width: 100px;
+    margin-right: 2rem;
+  }
+
+  form {
+    position: relative;
+  }
+
+  input {
+    background-color: transparent;
+    border: 1px solid var(--clr-white);
+    padding: 1.2rem;
+    border-radius: 2rem;
+    width: 350px;
+    font-family: var(--font-main);
+    color: var(--clr-white-hover);
+
+    &::placeholder {
+      color: var(--clr-white-hover);
+    }
+  }
+
+  button {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 8%;
+    cursor: pointer;
+
+    i {
+      color: var(--clr-white);
+      font-size: 1.5rem;
+    }
   }
 
   &__navbar {
