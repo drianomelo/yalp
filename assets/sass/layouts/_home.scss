@@ -36,7 +36,7 @@
     display: flex;
     position: absolute;
     z-index: 1054;
-    top: 250px;
+    top: 260px;
   }
 
   &__card {
@@ -66,7 +66,7 @@
     }
 
     &:hover {
-      transform: scale(1.1);
+      transform: scale(1.02);
     }
   }
 }
