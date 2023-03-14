@@ -102,4 +102,19 @@ body {
 }
 .header__item a:hover {
   color: var(--clr-white-hover);
+}
+
+.home div {
+  max-width: 570px;
+  padding: 2.5rem 0;
+}
+.home__title {
+  color: var(--clr-white);
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+.home__desc {
+  color: var(--clr-white-hover);
+  font-size: 1.1rem;
 }/*# sourceMappingURL=app.css.map */
