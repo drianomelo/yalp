@@ -3,6 +3,7 @@
   align-items: center;
   background-color: var(--clr-white);
   padding-top: 5rem;
+  position: relative;
 
   div {
     display: flex;
@@ -10,7 +11,7 @@
   }
 
   &__image {
-    margin-right: 6rem;
+    margin-right: 7rem;
     img {
       width: 400px;
     }
@@ -24,6 +25,40 @@
       color: var(--clr-purple);
       font-size: 2.5rem;
       font-weight: 800;
+      margin-bottom: 1.5rem;
     }
+
+    p {
+      color: var(--clr-purple);
+      font-size: 1.1rem;
+      margin-bottom: 2rem;
+    }
+
+    a {
+      padding: 1rem 2rem;
+      background-color: var(--clr-yellow);
+      color: var(--clr-black);
+      border-radius: 2rem;
+      box-shadow: 0px 0px 20px var(--clr-yellow-hover);
+      width: 250px;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: 700;
+      text-align: center;
+      transition: all 0.3s;
+
+      &:hover {
+        transform: translateY(5%);
+      }
+    }
+  }
+
+  &__controle {
+    position: absolute;
+    width: 500px;
+    transform: rotate(90deg);
+    filter: opacity(.2);
+    z-index: 1054;
+    left: -220px;
   }
 }
