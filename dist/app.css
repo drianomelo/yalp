@@ -257,6 +257,13 @@ body {
   top: 300px;
 }
 
+.devices {
+  padding: 7rem 0;
+}
+.devices img {
+  width: 520px;
+}
+
 .corte {
   background-color: var(--clr-white);
   height: 150px;
