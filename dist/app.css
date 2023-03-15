@@ -233,6 +233,7 @@ body {
 .game__card i {
   font-size: 2.5rem;
   margin-bottom: 1rem;
+  color: var(--clr-purple);
 }
 .game__card h3 {
   font-size: 1.6rem;
