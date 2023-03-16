@@ -135,6 +135,7 @@ body {
 }
 .home__image {
   margin-right: 1rem;
+  animation: up-down 2s ease-in-out infinite alternate;
 }
 .home__image img {
   width: 330px;
@@ -292,4 +293,10 @@ body {
   top: 550px;
   left: -10px;
   transform: rotate(3deg);
+}
+
+@keyframes up-down {
+  to {
+    transform: translateY(-5%);
+  }
 }/*# sourceMappingURL=app.css.map */

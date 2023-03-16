@@ -27,6 +27,7 @@
 
   &__image {
     margin-right: 1rem;
+    animation: up-down 2s ease-in-out infinite alternate;
     img {
       width: 330px;
     }
