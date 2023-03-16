@@ -296,6 +296,37 @@ body {
   width: 520px;
 }
 
+.footer {
+  background-color: var(--clr-black);
+  padding: 0.8rem 0;
+  flex-direction: column;
+}
+.footer__socials {
+  margin-bottom: 1rem;
+}
+.footer__socials a {
+  color: var(--clr-white);
+}
+.footer__socials a:not(:last-child) {
+  margin-right: 1rem;
+}
+.footer__socials a:hover > i {
+  transform: scale(1.1);
+}
+.footer__socials a i {
+  transition: all 0.3s;
+  font-size: 1.5rem;
+}
+.footer__text p {
+  color: var(--clr-white);
+  font-size: 0.8rem;
+}
+.footer__text p a {
+  text-decoration: none;
+  color: var(--clr-purple-light);
+  font-weight: 700;
+}
+
 .corte {
   background-color: var(--clr-white);
   height: 150px;

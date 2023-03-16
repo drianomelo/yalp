@@ -1,0 +1,36 @@
+.footer {
+  background-color: var(--clr-black);
+  padding: .8rem 0;
+  flex-direction: column;
+  
+  &__socials {
+    margin-bottom: 1rem;
+    a {
+        color: var(--clr-white);
+        &:not(:last-child) {
+            margin-right: 1rem;
+        }
+
+        &:hover > i{
+            transform: scale(1.1);
+        }
+      i {
+        transition: all .3s;
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  &__text {
+    p {
+        color: var(--clr-white);
+        font-size: .8rem;
+
+        a {
+            text-decoration: none;
+            color: var(--clr-purple-light);
+            font-weight: 700;
+        }
+    }
+  }
+}
