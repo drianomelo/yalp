@@ -258,7 +258,27 @@ body {
 }
 
 .devices {
+  display: flex;
   padding: 7rem 0;
+}
+.devices__text h3 {
+  color: var(--clr-white);
+  font-size: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+.devices__text p {
+  color: var(--clr-white-hover);
+  font-size: 1.1rem;
+  margin-bottom: 3.5rem;
+}
+.devices__text a {
+  border: 2px solid var(--clr-yellow);
+  border-radius: 2rem;
+  color: var(--clr-white);
+  font-weight: 700;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 .devices img {
   width: 520px;
