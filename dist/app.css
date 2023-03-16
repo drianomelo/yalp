@@ -260,7 +260,11 @@ body {
 
 .devices {
   display: flex;
+  align-items: center;
   padding: 7rem 0;
+}
+.devices__text {
+  margin-bottom: 5rem;
 }
 .devices__text h3 {
   color: var(--clr-white);
@@ -280,6 +284,13 @@ body {
   padding: 1rem 2rem;
   text-transform: uppercase;
   text-decoration: none;
+  transition: all 0.3s;
+}
+.devices__text a:hover {
+  background-color: var(--clr-yellow);
+  color: var(--clr-purple);
+  box-shadow: 0px 0px 20px var(--clr-yellow-hover);
+  transform: translateY(5%);
 }
 .devices img {
   width: 520px;
