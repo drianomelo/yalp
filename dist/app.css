@@ -38,6 +38,16 @@ body {
   --clr-purple-light: #482b7b;
 }
 
+.dark-mode {
+  --clr-white: #242424;
+  --clr-yellow: #482b7b;
+  --clr-yellow-hover: #251344;
+  --clr-black: #fff;
+  --clr-white-hover: #181818d9;
+  --clr-purple: #1a0533;
+  --clr-purple-light: #251344;
+}
+
 .header {
   padding: 2.5rem 0;
 }
@@ -341,4 +351,30 @@ body {
   to {
     transform: translateY(-5%);
   }
+}
+.theme {
+  background-color: #673181;
+  border-radius: 3rem;
+  border: 4px solid #371a45;
+  width: 7rem;
+  height: 3rem;
+  position: absolute;
+  right: 1%;
+  top: 2%;
+}
+.theme button {
+  display: block;
+  width: 2.3rem;
+  height: 2.3rem;
+  background-image: url(../../../assets/images/sun.svg);
+  background-size: 2rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 3px solid #371a45;
+  border-radius: 50%;
+  position: absolute;
+  top: 5%;
+  left: 3%;
+  cursor: pointer;
+  transition: all 0.5s;
 }/*# sourceMappingURL=app.css.map */
