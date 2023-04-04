@@ -337,6 +337,17 @@ body {
   font-weight: 700;
 }
 
+.login {
+  display: flex;
+  height: 100vh;
+  background-color: var(--clr-white);
+}
+.login__img {
+  width: 100%;
+  background-image: url(../../../assets/images/back.jpg);
+  background-size: cover;
+}
+
 .corte {
   background-color: var(--clr-white);
   height: 150px;

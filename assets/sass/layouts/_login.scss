@@ -1,0 +1,11 @@
+.login {
+  display: flex;
+  height: 100vh;
+  background-color: var(--clr-white);
+
+  &__img {
+    width: 100%;
+    background-image: url(../../../assets/images/back.jpg);
+    background-size: cover;
+  }
+}
