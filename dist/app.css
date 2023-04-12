@@ -399,6 +399,10 @@ body {
   flex: 1;
   padding: 0.3rem 0;
   border-radius: 0.5rem;
+  transition: all 0.3s;
+}
+.login__socials a:hover {
+  transform: scale(1.1);
 }
 .login__socials a i {
   font-size: 1.2rem;
