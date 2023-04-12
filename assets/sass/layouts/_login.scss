@@ -55,18 +55,57 @@
     }
   }
 
+  &__socials {
+    width: 70%;
+    margin: 0 auto 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    a {
+      flex: 1;
+      padding: .3rem 0;
+      border-radius: .5rem;
+
+      i {
+        font-size: 1.2rem;
+      }
+
+      &:first-child {
+        background-color: #2e74f7;
+        margin-right: 1rem;
+
+        i {
+          color: var(--clr-white);
+        }
+      }
+      &:nth-child(2) {
+        background-color: #fff;
+        margin-right: 1rem;
+      }
+      &:last-child {
+        background-color: #000;
+
+        i {
+          color: var(--clr-white);
+          font-size: 1.3rem;
+        }
+      }
+    }
+  }
+
   &__btn {
     padding: 1rem 1.1rem;
     border-radius: 1.3rem;
     background: none;
     border: 3px solid var(--clr-purple);
     cursor: pointer;
-    transition: all .3s;
+    transition: all 0.3s;
 
     i {
       font-size: 1.5rem;
       color: var(--clr-purple);
-      transition: all .3s;
+      transition: all 0.3s;
     }
 
     &:hover {
