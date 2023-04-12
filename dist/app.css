@@ -388,6 +388,26 @@ body {
   font-weight: 700;
   transition: all 0.3s;
 }
+.login__btn {
+  padding: 1rem 1.1rem;
+  border-radius: 1.3rem;
+  background: none;
+  border: 3px solid var(--clr-purple);
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.login__btn i {
+  font-size: 1.5rem;
+  color: var(--clr-purple);
+  transition: all 0.3s;
+}
+.login__btn:hover {
+  transform: scale(1.1);
+  background-color: var(--clr-purple);
+}
+.login__btn:hover > i {
+  color: var(--clr-purple-light);
+}
 
 .clicked {
   font-size: 0.75rem;

@@ -54,6 +54,30 @@
       transition: all 0.3s;
     }
   }
+
+  &__btn {
+    padding: 1rem 1.1rem;
+    border-radius: 1.3rem;
+    background: none;
+    border: 3px solid var(--clr-purple);
+    cursor: pointer;
+    transition: all .3s;
+
+    i {
+      font-size: 1.5rem;
+      color: var(--clr-purple);
+      transition: all .3s;
+    }
+
+    &:hover {
+      transform: scale(1.1);
+      background-color: var(--clr-purple);
+
+      & > i {
+        color: var(--clr-purple-light);
+      }
+    }
+  }
 }
 
 .clicked {
