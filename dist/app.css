@@ -379,18 +379,19 @@ body {
   box-shadow: 0px 4px 0 var(--clr-black);
   outline: none;
 }
-.login__input input:focus + label {
-  font-size: 0.7rem;
-  top: 11%;
-}
 .login__input label {
   display: block;
   position: absolute;
-  top: 24%;
+  top: 25%;
   left: 80px;
   z-index: 1024;
   font-weight: 700;
-  transition: all 0.2s;
+  transition: all 0.3s;
+}
+
+.clicked {
+  font-size: 0.75rem;
+  top: 11% !important;
 }
 
 .corte {

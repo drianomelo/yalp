@@ -16,3 +16,4 @@ btn.addEventListener("click", () => {
 btn.addEventListener("click", () => {
   document.body.classList.toggle("dark-mode");
 });
+
